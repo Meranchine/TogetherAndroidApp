@@ -2,8 +2,16 @@
     <string name="app_name">TogetherApp</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_weather">Weather</string>
     <string name="title_watch">Watch</string>
+
+    <string name="loading">loading</string>
+    <string name="play">play</string>
+    <string name="prev">prev</string>
+    <string name="musicstop">stop</string>
+    <string name="next">next</string>
+    <string name="pause">pause</string>
+
     <string name="timer">00:00:00</string>
     <string name="start">start</string>
     <string name="stop">stop</string>

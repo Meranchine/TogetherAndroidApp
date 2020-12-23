@@ -11,6 +11,7 @@ class WatchViewModel : ViewModel() {
     private var _seconds:MutableLiveData<Int> = MutableLiveData()
     private var running=false
     val seconds:LiveData<Int> = _seconds
+
     init {
         runTimer()
     }
@@ -29,7 +30,6 @@ class WatchViewModel : ViewModel() {
         val handler = Handler()
         val runnable = object :Runnable {
             override fun run(){
-
                 if(running){
                     val sec = _seconds.value?:0
                     _seconds.value = sec+1

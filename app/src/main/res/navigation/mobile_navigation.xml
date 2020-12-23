@@ -19,12 +19,12 @@
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.example.togetherapp.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:name="com.example.togetherapp.ui.weather_main.WeatherFragment"
+        android:label="@string/title_weather"
+        tools:layout="@layout/fragment_weather" />
     <fragment
         android:id="@+id/navigation_watch"
         android:name="com.example.togetherapp.ui.watch.WatchFragment"
         android:label="@string/title_watch"
-        tools:layout="@layout/watch_fragment" />
+        tools:layout="@layout/fragment_watch" />
 </navigation>

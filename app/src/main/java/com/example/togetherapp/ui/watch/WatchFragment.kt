@@ -8,7 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import com.example.togetherapp.R
-import kotlinx.android.synthetic.main.watch_fragment.*
+import kotlinx.android.synthetic.main.fragment_watch.*
 
 class WatchFragment : Fragment() {
 
@@ -22,7 +22,7 @@ class WatchFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.watch_fragment, container, false)
+        return inflater.inflate(R.layout.fragment_watch, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
