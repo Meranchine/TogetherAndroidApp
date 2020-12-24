@@ -16,7 +16,7 @@ class WatchFragment : Fragment() {
         fun newInstance() = WatchFragment()
     }
 
-    private lateinit var viewModel: WatchViewModel
+    private lateinit var viewModel: WatchViewModel //初始化ViewModel对象
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
